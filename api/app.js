@@ -13,7 +13,8 @@ app.use(morgan('dev'));
 const allowedOrigins = [
   'http://localhost:3000',
   'http://apalabajar.com',
-  'http://www.apalabajar.com'
+  'http://www.apalabajar.com',
+  'http://13.201.29.193'
 ];
 
 app.use(cors({
